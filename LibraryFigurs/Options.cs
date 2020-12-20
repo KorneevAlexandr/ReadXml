@@ -63,7 +63,7 @@ namespace LibraryFigurs
 		{
 			if (Box.Count < 20)
 			{
-				if (Box.Count > 0 && !Box[Box.Count - 1].Equals(figura))
+				if (Box.Count > 0 && Box[Box.Count - 1].Equals(figura))
 					throw new Exception("Нельзя добавлять одну и туже фигуру дважды");
 				Box.Add(figura);
 			}
