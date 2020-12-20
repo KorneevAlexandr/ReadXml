@@ -75,7 +75,7 @@ namespace LibraryFigurs
 		/// <returns>square</returns>
 		public override double Square()
 		{
-			return len * len;
+			return Math.Round(len * len, 2);
 		}
 
 		/// <summary>

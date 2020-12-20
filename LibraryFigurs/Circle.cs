@@ -74,7 +74,7 @@ namespace LibraryFigurs
 		/// <returns>square</returns>
 		public override double Square()
 		{
-			return Math.PI * radius * radius;
+			return Math.Round(Math.PI * radius * radius, 2);
 		}
 
 		/// <summary>
@@ -83,7 +83,7 @@ namespace LibraryFigurs
 		/// <returns>perimetr</returns>
 		public override double Perimetr()
 		{
-			return 2 * Math.PI * radius;
+			return Math.Round(2 * Math.PI * radius, 2);
 		}
 
 		/// <summary>

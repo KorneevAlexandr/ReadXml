@@ -58,6 +58,10 @@
       <Project>{51a9ddc1-468e-4f48-9bbc-aff6a3243b10}</Project>
       <Name>ParsingFiles</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TestingProject\TestingProject.csproj">
+      <Project>{e42fc341-905e-4456-a5cc-ac1536e7b914}</Project>
+      <Name>TestingProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
